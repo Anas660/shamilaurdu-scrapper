@@ -1,0 +1,49 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Project output files
+word_files/
+word_surahs/
+json_files/
+jsons_ready/
+
+# Downloaded content
+*.docx
+*.json
+*.txt
+!requirements.txt
+
+# Exception for source code
+!*.py
+!.gitignore
+!README.md
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
